@@ -4,6 +4,7 @@ import type {AccessTokenPayloadDTO, CredentialsDTO, RoleEnum} from "../models/au
 import * as accessTokenRepository from "../localStorage/access-token-repository";
 import jwtDecode from "jwt-decode";
 import axios from "axios";
+import { BASE_URL } from "../utils/system";
 
 export function loginRequest(loginData: CredentialsDTO) {
   const headers = {
@@ -17,7 +18,7 @@ export function loginRequest(loginData: CredentialsDTO) {
 
   return axios({
     method: "POST",
-    url: "/.netlify/functions/login",
+    url: `${BASE_URL}/oauth2/token`,
     data: requestBody,
     headers,
     withCredentials: false
