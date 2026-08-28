@@ -6,7 +6,7 @@
 
 LMCommerce é uma aplicação full stack web e mobile construída com fundamentos base em Java / Spring no back-end e React / TypeScript no front-end.
 
-A aplicação consiste em um e-commerce completo, com um catálogo de produtos, login de usuário para efetuar uma compra em perfil de cliente e perfil administrador para cadastrar, alterar, atualizar e excluir produtos.
+A aplicação consiste em um e-commerce completo, com um catálogo de produtos, login de usuário para efetuar compras em perfil de cliente e perfil administrativo para cadastrar, alterar, atualizar e excluir produtos.
 
 ## Layout web
 ![Web 1](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/catalogo.png)
