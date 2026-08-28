@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-LMCommerce é uma aplicação full stack web e mobile construída aplicando conhecimentos que adquiri através da plataforma de ensino DevSuperior.
+LMCommerce é uma aplicação full stack web e mobile construída com fundamentos base em Java / Spring no back-end e React / TypeScript no front-end.
 
 A aplicação consiste em um e-commerce completo, com um catálogo de produtos, login de usuário para efetuar uma compra em perfil de cliente e perfil administrador para cadastrar, alterar, atualizar e excluir produtos.
 
@@ -50,6 +50,8 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 - Validação de dados
 - JPQL
 - API Rest
+## Agradecimentos
+  A realização desse projeto só foi possível graças aos aprendizados adquiridos através do professor Nélio Alves(https://www.linkedin.com/in/nelio-alves/) e a plataforma de ensino DevSuperior (https://devsuperior.club/).
 
 # Como executar o projeto
 
