@@ -27,7 +27,6 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 - Java
 - Spring Boot
 - JPA / Hibernate
-- Spring Security / JWT
 - Maven
 ## Front end
 - HTML
@@ -36,9 +35,21 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 - ReactJS
 - Yarn
 ## Implantação em produção
-- Back end: Railway
-- Front end web: Netlify
+- Back-end: Railway
+- Front-end web: Netlify
 - Banco de dados: PostgreSql
+## Competências gerais
+- Front-end responsivo
+- Layout back-end em camadas
+- React Router DOM para navegação entre telas
+- Spring security com autenticação em token JWT
+- Controle de acesso por perfil de usuário
+- Manipulação do local storage do navegador
+- Testes em ambiente de produção, teste e desenvolvimento
+- ORM
+- Validação de dados
+- JPQL
+- API Rest
 
 # Como executar o projeto
 
