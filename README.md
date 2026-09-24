@@ -15,9 +15,15 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 ![Web 4](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/cadastro_produto.png)
 
 ## Layout mobile
-![Mobile 1](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/catalogo_mobile.png) ![Mobile 2](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/carrinho_mobile.png) 
-![Mobile 3](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/area_administrativa_mobile.png) ![Mobile 4](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/cadastro_produto_mobile.png)
 
+<p align="center">
+  <img src="https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/catalogo_mobile.png" alt="Mobile 1" width="300"/>
+  <img src="https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/carrinho_mobile.png" alt="Mobile 2" width="300"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/area_administrativa_mobile.png" alt="Mobile 3" width="300"/>
+  <img src="https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/cadastro_produto_mobile.png" alt="Mobile 4" width="300"/>
+</p>
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/Maxwell-Luan/LMCommerce/blob/main/assets/modelo_conceitual.png)
@@ -38,6 +44,7 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 - Back-end: Railway
 - Front-end web: Netlify
 - Banco de dados: PostgreSql
+- Containerização: Docker
 ## Competências gerais
 - Front-end responsivo
 - Layout back-end em camadas
@@ -50,41 +57,47 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 - Validação de dados
 - JPQL
 - API Rest
+- Criação de containers e imagens com Docker
 ## Agradecimentos
   A realização desse projeto só foi possível graças aos aprendizados adquiridos através do professor Nélio Alves(https://www.linkedin.com/in/nelio-alves/) e a plataforma de ensino DevSuperior (https://devsuperior.club/).
 
+
 # Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 17
+Você pode executar a aplicação completa (Back-end, Front-end e Banco de Dados PostgreSQL) utilizando o **Docker Compose**, sem a necessidade de instalar Java, Node.js ou PostgreSQL localmente.
 
-```bash
-# clonar repositório
-git clone git@github.com:Maxwell-Luan/LMCommerce.git
+### 📋 Pré-requisitos
+- **[Docker Desktop](https://www.docker.com/)** instalado **e em execução** na sua máquina.
 
-# entrar na pasta do projeto back-end
-cd backend
+### 🏃 Passo a Passo rodando com Docker (Recomendado)
 
-# executar o projeto
-./mvnw spring-boot:run
-```
+1. **Abra o Docker Desktop** no seu computador e aguarde até que o status indique que o serviço está ativo (*Engine running*).
 
-## Front end web
-Pré-requisitos: yarn
+2. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/Maxwell-Luan/LMCommerce.git](https://github.com/Maxwell-Luan/LMCommerce.git)
+   
+   cd LMCommerce
+   ```
+   
+3. **Suba a aplicação**
+   ```bash
+   docker compose up -d --build
+   ```
+   
+4. **Visualização e testes**
+   ```bash
+   Aguarde subir todos os serviços (PostgreSQL, Back-end e Front-end) com o comando anterior e acesse o frontend em: http://localhost
 
-```bash
-# clonar repositório
-git clone git@github.com:Maxwell-Luan/LMCommerce.git
+   Usuários padrão para teste de login:
 
-# entrar na pasta do projeto front-end
-cd frontend
+   E-mail: alice@gmail.com
+   Senha: 123456
+   Roles: Cliente
 
-# instalar dependências
-yarn
-
-# executar o projeto
-yarn dev
-```
+   E-mail: luan@gmail.com
+   Senha: 123456
+   Roles: Cliente e Admin
 
 # Autor
 
