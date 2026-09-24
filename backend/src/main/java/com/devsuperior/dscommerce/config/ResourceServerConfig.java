@@ -64,8 +64,9 @@ public class ResourceServerConfig {
 
 	@Bean
 	CorsConfigurationSource corsConfigurationSource() {
-
-		String[] origins = corsOrigins.split(",");
+		String[] origins = Arrays.stream(corsOrigins.split(","))
+				.map(String::trim)
+				.toArray(String[]::new);
 
 		CorsConfiguration corsConfig = new CorsConfiguration();
 		corsConfig.setAllowedOriginPatterns(Arrays.asList(origins));

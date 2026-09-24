@@ -55,8 +55,8 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (23, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (24, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (25, 3);
 
-INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Maria Brown', 'maria@gmail.com', '988888888', '$2a$10$8QiFonz/PirDS3/Q5fXAwelhP7RE3MzIDBFtakD5GL4tHI6XSUzIK', '2001-07-25');
-INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Alex Green', 'alex@gmail.com', '977777777', '$2a$10$8QiFonz/PirDS3/Q5fXAwelhP7RE3MzIDBFtakD5GL4tHI6XSUzIK', '1987-12-13');
+INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Alice Maelle', 'alice@gmail.com', '977777777', '$2a$10$8QiFonz/PirDS3/Q5fXAwelhP7RE3MzIDBFtakD5GL4tHI6XSUzIK', '2000-04-01');
+INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Luan Maxwell', 'luan@gmail.com', '944444444', '$2a$10$8QiFonz/PirDS3/Q5fXAwelhP7RE3MzIDBFtakD5GL4tHI6XSUzIK', '2003-04-26');
 
 INSERT INTO tb_role (authority) VALUES ('ROLE_CLIENT');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
