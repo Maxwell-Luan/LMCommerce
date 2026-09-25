@@ -71,7 +71,7 @@ Você pode executar a aplicação completa (Back-end, Front-end e Banco de Dados
 
 ### 🏃 Passo a Passo rodando com Docker (Recomendado)
 
-1. **Abra o Docker Desktop** no seu computador e aguarde até que o status indique que o serviço está ativo (*Engine running*).
+1. **Abra o Docker Desktop** no seu computador e aguarde até que o status indique que o serviço está ativo (*Engine running*, normalmente no canto inferior esquerdo da tela).
 
 2. **Clone o repositório:**
    ```bash
