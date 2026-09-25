@@ -67,7 +67,7 @@ A aplicação consiste em um e-commerce completo, com um catálogo de produtos, 
 Você pode executar a aplicação completa (Back-end, Front-end e Banco de Dados PostgreSQL) utilizando o **Docker Compose**, sem a necessidade de instalar Java, Node.js ou PostgreSQL localmente.
 
 ### 📋 Pré-requisitos
-- **[Docker Desktop](https://www.docker.com/)** instalado **e em execução** na sua máquina.
+- **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** instalado **e em execução** na sua máquina.
 
 ### 🏃 Passo a Passo rodando com Docker (Recomendado)
 
@@ -75,7 +75,7 @@ Você pode executar a aplicação completa (Back-end, Front-end e Banco de Dados
 
 2. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/Maxwell-Luan/LMCommerce.git](https://github.com/Maxwell-Luan/LMCommerce.git)
+   git clone https://github.com/Maxwell-Luan/LMCommerce.git
    
    cd LMCommerce
    ```
